@@ -1,0 +1,92 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    background: #e9f5f9;
+    color: #1e1e1e;
+    line-height: 1.6;
+  }
+  
+  header {
+    background: #006d77;
+    color: #fff;
+    padding: 1.5rem 0;
+    text-align: center;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin: 0 15px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+  }
+  
+  section {
+    padding: 2rem;
+    background: #ffffff;
+    margin: 1.5rem auto;
+    max-width: 800px;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+  }
+  
+  h2 {
+    color: #006d77;
+  }
+  
+  .project {
+    margin-bottom: 2rem;
+  }
+  
+  form input,
+  form textarea {
+    width: 100%;
+    padding: 0.75rem;
+    margin: 0.5rem 0;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-family: inherit;
+  }
+  
+  button {
+    padding: 0.75rem 1.5rem;
+    background: #006d77;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background 0.3s ease;
+  }
+  
+  button:hover {
+    background: #004e55;
+  }
+  
+  footer {
+    background: #1e1e1e;
+    color: #ffffff;
+    text-align: center;
+    padding: 2rem 0;
+  }
+  
+  footer a {
+    color: #ffb703;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+  }
+  
+  footer a:hover {
+    text-decoration: underline;
+  }
+  
